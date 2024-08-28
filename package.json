@@ -1,0 +1,25 @@
+{
+  "name": "acode-git",
+  "version": "1.0.0",
+  "description": "Git",
+  "main": "dist/main.js",
+  "scripts": {
+    "build": "node build.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bajrangCoders/acode-git.git"
+  },
+  "author": "Raunak Raj",
+  "license": "MIT",
+  "dependencies": {
+    "@isomorphic-git/lightning-fs": "^4.6.0",
+    "buffer": "^6.0.3",
+    "isomorphic-git": "^1.27.1"
+  },
+  "devDependencies": {
+    "esbuild": "^0.21.4",
+    "esbuild-sass-plugin": "^3.3.0",
+    "jszip": "^3.10.1"
+  }
+}
